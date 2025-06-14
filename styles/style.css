@@ -362,11 +362,16 @@ nav {
 
 }
 
+#products{
+
+  padding-top: 10em;
+
+}
+
 #products h2 {
 
   color: #FF7C19;
   text-align: center;
-  margin-top: 5em;
 
 
 }
@@ -425,7 +430,15 @@ footer p {
   color: #FF7C19;
 }
 
+@media (max-height:400px) {
+  
+  header {
 
+  height: 20vh;
+
+  }
+
+}
 /*MEDIA QUERYS*/
 @media (max-width:1660px) {
 
